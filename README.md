@@ -6,9 +6,9 @@
 
 ```sh
 # Install jdk-8
-sudo apt install openjdk-8-jdk
+sudo apt update && sudo apt install openjdk-8-jdk -y
 
-# Set JAVA_HOME in gradle.properties
+# Set JAVA_HOME in gradle.properties (Done)
 org.gradle.java.home=/usr/lib/jvm/java-8-openjdk-amd64
 ```
 
